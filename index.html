@@ -6,6 +6,16 @@
   <title>Home — Educational Technology e-Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="Educational Technology e-Portfolio Home page">
+  <style>
+    .portfolio-banner{position:relative;isolation:isolate;overflow:hidden;background:#0b1c32;border-radius:12px;min-height:300px;display:flex;align-items:center;padding:clamp(1.5rem,4vw,3.5rem);color:#fff}
+    .portfolio-banner img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+    .portfolio-banner:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,22,42,.38),transparent);z-index:-1}
+    .banner-copy{max-width:55%}
+    .banner-copy .eyebrow{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:#e8d7b7;margin:0 0 .75rem;font-weight:600}
+    .banner-copy h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.12;margin:0 0 .8rem;letter-spacing:-.025em}
+    .banner-copy p{margin:0;font-size:1.05rem;color:#f1f5f9}
+    @media(max-width:600px){.portfolio-banner{min-height:280px}.portfolio-banner img{object-position:65% center}.portfolio-banner:after{background:rgba(7,22,42,.72)}.banner-copy{max-width:100%}.banner-copy h2{font-size:2.25rem}}
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -23,6 +33,12 @@
     </div>
   </header>
 
+  <div class="container">
+    <section class="portfolio-banner" aria-label="Claudia Casso portfolio banner">
+      <img src="portfolio-banner.jpg" alt="" width="2172" height="724" fetchpriority="high">
+      <div class="banner-copy"><p class="eyebrow">Education · Technology · Creative expression</p><h2>Claudia Casso</h2><p>Educational Technology e-Portfolio</p></div>
+    </section>
+  </div>
   <main class="container home-grid">
 <aside class="profile-card"><img src="assets/claudia-photo.jpg" alt="Claudia Casso" class="profile-photo"><p class="photo-caption">Claudia Casso</p><p>San Antonio, Texas</p></aside>
 <section class="home-content"><h2>Welcome to My e-Portfolio</h2>
