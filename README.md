@@ -13,6 +13,17 @@ Edit content
 - Replace personal placeholders in `index.html` (name, degree, background) and `profile.html` (LinkedIn URL).
 - Replace `assets/profile-placeholder.svg` with your headshot (use same filename or update `index.html`).
 
+Placeholders remaining
+- Contact email and phone: please provide the professional email to display or indicate you prefer a contact form.
+- LinkedIn URL: add your LinkedIn profile URL to `profile.html`.
+- EDTC 6320 project artifacts: add project title, description, and artifact report links on `edtc6320.html` and update the Matrix.
+
+How I updated the site for you
+- Inserted your name and a concise About Me on the Home page.
+- Added your full profile biography to `profile.html`.
+- Set `EDTC 6320: Instructional Technology` as the single course on `courses.html` and created `edtc6320.html` for your course projects.
+- Removed example placeholders where possible and left clear instructive comments where I need your input (contact, artifact links, LinkedIn, headshot).
+
 Change accent color
 - Edit `--accent` in `css/style.css`.
 
