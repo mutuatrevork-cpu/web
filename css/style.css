@@ -1,0 +1,35 @@
+:root{
+  --accent:#1b6ca8;
+  --bg:#ffffff;
+  --text:#1f2933;
+  --muted:#6b7280;
+  --container-max:1000px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:var(--text); background:var(--bg); line-height:1.5}
+.container{max-width:var(--container-max); margin:0 auto; padding:1rem}
+.site-header{border-bottom:1px solid #e6e9ec; background:transparent}
+.header-inner{display:flex; align-items:center; justify-content:space-between; gap:1rem}
+.site-title{font-size:1rem; margin:0; color:var(--text); font-weight:600}
+.site-nav a{color:var(--text); text-decoration:none; margin-left:0.9rem; padding:0.4rem 0.5rem; border-radius:6px}
+.site-nav a.active, .site-nav a:hover{background:rgba(27,108,168,0.08); color:var(--accent)}
+
+.home-grid{display:grid; grid-template-columns:260px 1fr; gap:2rem; align-items:start; padding:2rem 1rem}
+.profile-card{background:#fff; border:1px solid #eef2f6; padding:1rem; border-radius:8px; text-align:center}
+.profile-photo{width:160px; height:160px; border-radius:8px; display:block; margin:0 auto}
+.photo-caption{font-size:0.85rem; color:var(--muted); margin-top:0.5rem}
+.home-content h2{margin-top:0;}
+.home-content article{margin-bottom:1.25rem; padding-bottom:0.6rem; border-bottom:1px dashed #f1f5f9}
+.home-content h3{margin:0 0 0.4rem 0; font-size:1rem}
+.last-updated{color:var(--muted); font-size:0. ninerem; margin-top:0.75rem}
+
+.site-footer{border-top:1px solid #e6e9ec; margin-top:2rem; padding:1rem 0; color:var(--muted); font-size:0.95rem}
+
+.simple-center{padding:3rem 1rem; text-align:center}
+
+@media (max-width:800px){
+  .home-grid{grid-template-columns:1fr;}
+  .profile-photo{width:120px;height:120px}
+  .header-inner{flex-direction:column; align-items:flex-start}
+  .site-nav{margin-top:0.5rem}
+}
