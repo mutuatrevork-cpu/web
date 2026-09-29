@@ -21,6 +21,11 @@ Placeholders remaining
 How I updated the site for you
 - Inserted your name and a concise About Me on the Home page.
 - Added your full profile biography to `profile.html`.
+
+Example content added
+- An example EDTC 6320 project and a sample Artifact Report structure were added to `edtc6320.html` to show how to present your work.
+- A sample matrix row mapping the example project to program standards was added to `matrix.html`.
+- Example leadership items and example contact details were added to make the site read as complete; these are clearly labeled as examples and should be replaced with your real information.
 - Set `EDTC 6320: Instructional Technology` as the single course on `courses.html` and created `edtc6320.html` for your course projects.
 - Removed example placeholders where possible and left clear instructive comments where I need your input (contact, artifact links, LinkedIn, headshot).
 
