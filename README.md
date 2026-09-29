@@ -1,51 +1,23 @@
-# Educational Technology e-Portfolio — Claudia Casso
+# Claudia Casso — Educational Technology e-Portfolio
 
-This repository contains a simple, responsive e-Portfolio scaffold intended for the Educational Technology program.
+Personal portfolio based on Claudia's supplied biography. EDTC 6320: Instructional Technology is the only listed course. Open index.html to preview.
 
-Recommended options to publish/edit your portfolio:
-- Google Sites — Easiest for non-coders; drag-and-drop editing, simple menus.
-- GitHub Pages — Host this repo as a static site; good if you keep this custom site.
-- Vercel / Netlify — Simple deploys from GitHub for modern static sites (supports automatic updates).
+## Current assignment alignment
 
-If you prefer a non-coding approach, use Google Sites and recreate the pages there. If you want to continue with this custom site, here are quick edit instructions:
+- All eight pages retain the required navigation order.
+- Home contains five approximately 50-word sections, a square portrait, and an update date.
+- The reflection is an introductory letter to the faculty, appropriate for the current assignment stage. The final 1,500-word synthesis is a later program requirement.
+- The course page describes the real e-Portfolio project as work in progress.
+- Matrix and project summary tables identify the current evidence status without inventing standards achievement.
+- Biography and professional experience use supplied facts. No fabricated contact details, memberships, certifications, or project results appear.
 
-Edit content
-- Replace personal placeholders in `index.html` (name, degree, background) and `profile.html` (LinkedIn URL).
-- Replace `assets/profile-placeholder.svg` with your headshot (use same filename or update `index.html`).
+## Information still needed for full submission readiness
 
-Placeholders remaining
-- Contact email and phone: please provide the professional email to display or indicate you prefer a contact form.
-- LinkedIn URL: add your LinkedIn profile URL to `profile.html`.
-- EDTC 6320 project artifacts: add project title, description, and artifact report links on `edtc6320.html` and update the Matrix.
+1. A professional email or configured contact form destination.
+2. The completed EDTC 6320 Artifact Report and actual project evidence supporting performance indicators. The sample matrix identifies a cooperative project as a key assessment; it must not be equated with this e-Portfolio without course-specific confirmation.
+3. Actual professional memberships, conferences, or continuing professional development activities for the Leadership criterion. Prior professional roles alone do not establish this requirement.
+4. The degree plan and future key assessments if the instructor requires the full program structure now. Only EDTC 6320 is listed at Claudia's explicit request.
 
-How I updated the site for you
-- Inserted your name and a concise About Me on the Home page.
-- Added your full profile biography to `profile.html`.
+Reference: https://sites.google.com/view/utrgvedtechportfolio/reflection-letter
 
-Example content added
-- An example EDTC 6320 project and a sample Artifact Report structure were added to `edtc6320.html` to show how to present your work.
-- A sample matrix row mapping the example project to program standards was added to `matrix.html`.
-- Example leadership items and example contact details were added to make the site read as complete; these are clearly labeled as examples and should be replaced with your real information.
-- Set `EDTC 6320: Instructional Technology` as the single course on `courses.html` and created `edtc6320.html` for your course projects.
-- Removed example placeholders where possible and left clear instructive comments where I need your input (contact, artifact links, LinkedIn, headshot).
-
-Change accent color
-- Edit `--accent` in `css/style.css`.
-
-Preview locally (simple static server)
-```bash
-# From the repository folder
-python -m http.server 8000
-# Then open http://localhost:8000 in your browser
-```
-
-To deploy via GitHub Pages (repo already pushed):
-1. In GitHub repository settings, enable Pages from the `master` branch (or `main` if you rename).
-
-To deploy with Vercel (recommended for automatic builds):
-1. Sign in to https://vercel.com and import the GitHub repo. Vercel will detect a static site and deploy automatically.
-
-If you'd like, I can:
-- Add a `CNAME` and configure GitHub Pages, or
-- Create a `main` branch and set it as default, or
-- Add simple edit instructions directly into the site.
+The supplied assignment instructions permit an introductory reflection at this stage. The sample final reflection has four sections totaling 1,500 words; those final-program requirements are not claimed as complete here.
